@@ -1,0 +1,16 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "files.associations": {
+    "stdio.h": "c",
+    "nvs_flash.h": "c",
+    "esp_camera.h": "c",
+    "param.h": "c"
+  },
+  "idf.port": "/dev/ttyACM0",
+  "idf.flashType": "UART",
+  "idf.adapterTargetName": "esp32s3",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32s3.cfg"
+  ]
+}
